@@ -1,9 +1,9 @@
-# Apple Music "Now Playing" Titlebar for Oh-My-Zsh
+# :musical_note:Apple Music "Now Playing" Titlebar for Oh-My-Zsh:musical_note:
 
-## Setup
+## Setup is simple
 
 **Step 1**: Copy `.current-track` & `.nowplaying` to Home directory  
-**Step 2**: Add contents of `.zhrc-precmd` to your personal `.zshrc` file in Home directory. Or just copy it from here:  
+**Step 2**: Add contents of `.zshrc-precmd` to your personal `.zshrc` file in Home directory. Or just copy it from here:  
 ```
 precmd(){ 
     music="\e]2;"
@@ -12,3 +12,5 @@ precmd(){
     printf $music
     }
 ```
+**Voilà!**  
+![screenshot](/img/oh-my-zsh-apple-music-titlebar.png)
