@@ -1,3 +1,5 @@
 # Apple Music "Now Playing" Titlebar for Oh-My-Zsh
 
-Step 1: 
+## Setup
+
+_Step 1:_ Copy `.current-track` to ~

@@ -1,6 +1,6 @@
 if [ `uname` = "Darwin" ]; then
   track="$(osascript ~/.current-track)"
   if [ "$track" ]; then
-    echo -e "🎵 $track"
+    echo "🎵 $track"
   fi
 fi
