@@ -4,7 +4,7 @@
 ## Setup is simple
 
 **Step 1**: Copy `.current-track` & `.nowplaying` to Home directory  
-**Step 2**: Add contents of `.zshrc-precmd` to your personal `.zshrc` file in Home directory. Or just copy it from here:  
+**Step 2**: Add contents of `.zshrc-now-playing` to your personal `.zshrc` file in Home directory. Or just copy it from here:  
 ```
 precmd(){ 
     music="\e]2;"
@@ -12,6 +12,9 @@ precmd(){
     music+="\a"
     printf $music
     }
+**Step 3 (iTerm2)**: Go to iTerm2 Preferences > Profiles > General and check :ballot_box_with_check:"Applications in terminal may change the title"
+# Uncomment the following line to disable auto-setting terminal title.
+DISABLE_AUTO_TITLE="true"
 ```
 **Voilà!**  
 Note:`precmd()` method runs right before every command is executed, so titlebar will be updated with new track information accordingly.
