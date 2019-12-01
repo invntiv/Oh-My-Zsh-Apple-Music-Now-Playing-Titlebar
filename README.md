@@ -24,3 +24,4 @@ Terminal: [iTerm2](https://iterm2.com/) (JSON profile included in :open_file_fol
 Shell: [Oh-My-Zsh](https://ohmyz.sh/)  
 Theme: [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (.p10k.zsh included in :open_file_folder:/shellconfig)  
 Font: [Hasklug Nerd Font 14pt](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/Hasklig.zip)
+Packages: [colorls](https://github.com/athityakumar/colorls)
