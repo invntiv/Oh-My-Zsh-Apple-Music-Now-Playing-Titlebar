@@ -2,5 +2,5 @@
 
 ## Setup
 
-_Step 1:_ Copy `.current-track` & `.nowplaying` to Home directory  
-_Step 2_: Add contents of `.zhrc-precmd` to your personal `.zshrc` file in Home directory
+**Step 1**: Copy `.current-track` & `.nowplaying` to Home directory  
+**Step 2**: Add contents of `.zhrc-precmd` to your personal `.zshrc` file in Home directory
