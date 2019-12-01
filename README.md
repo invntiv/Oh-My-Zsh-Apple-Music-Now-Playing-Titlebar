@@ -1,4 +1,5 @@
 # :musical_note:Apple Music "Now Playing" Titlebar for Oh-My-Zsh:musical_note:
+### (Note: shell scripts specific to OSX.)  
 
 ## Setup is simple
 
