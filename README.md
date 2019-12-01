@@ -14,4 +14,5 @@ precmd(){
     }
 ```
 **Voilà!**  
+Note:`precmd()` method runs right before every command is executed, so titlebar will be updated with new track information accordingly.
 ![screenshot](/img/oh-my-zsh-apple-music-titlebar.png)
