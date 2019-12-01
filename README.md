@@ -16,6 +16,6 @@ precmd(){
 DISABLE_AUTO_TITLE="true"
 ```
 **Step 3 (iTerm2)**: Go to iTerm2 Preferences > Profiles > General and check :ballot_box_with_check:"Applications in terminal may change the title"
-**Voilà!**  
+###Voilà!###  
 Note:`precmd()` method runs right before every command is executed, so titlebar will be updated with new track information accordingly.
 ![screenshot](/img/oh-my-zsh-apple-music-titlebar.png)
