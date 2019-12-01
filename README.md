@@ -1,1 +1,1 @@
-# -Oh-My-Zsh-Apple-Music-Now-Playing-Titlebar-
+# Apple Music "Now Playing" Titlebar for Oh-My-Zsh
